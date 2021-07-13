@@ -36,3 +36,75 @@
     transform: rotate(360deg);
   }
 }
+
+
+.container{
+  display: flex;
+  
+  position: relative;
+}
+
+.form{
+  display: flex;
+  flex-direction: column;
+ 
+  position: absolute;
+  right: 25px;
+  top: 50px;
+  margin-top: 50px;
+
+}
+.photo{
+ 
+ background: url("https://images.unsplash.com/photo-1626005447907-f081d4f0a34e?ixid=MnwxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHwyfHx8ZW58MHx8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=700&q=60");
+}
+
+
+.icourse{
+  margin: 20px;
+  padding: 10px;
+}
+
+.fbadmin{
+  margin: 20px;
+  padding: 10px;
+}
+
+.links{
+  display: flex;
+  margin: 0 auto;
+  text-decoration: none;
+  padding: 15px;
+   
+}
+.links Link{
+  margin:  15px;
+  padding: 15px;
+  text-decoration: none;
+  list-style: none;
+}
+.home{
+  margin: 0 auto;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+}
+.headerLink{
+  background-color: rgb(235, 197, 197);
+  margin: 0 auto;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  color: black;
+}
+
+.elseheader{
+  margin: 0 auto;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  color: red;
+}
+.inForm{
+  margin-left: 15px;
+}
